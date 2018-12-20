@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	display: flex;
+	justify-content: space-around;
+	background-color: #000;
+	list-style: none;
+	height: 40px;
+	line-height: 40px;
+}
+ul li{
+	color: #fff;
+	opacity: 0.5;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+body.index ul li.index,
+body.buy ul li.buy,
+body.learn ul li.learn,
+body.litao ul li.litao,
+body.shxin ul li.shxin,
+body.user ul li.user{
+	opacity: 1;
+}

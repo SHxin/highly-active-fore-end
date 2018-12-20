@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		label span{
+			float: left;
+		}
+		input[type=checkbox]{
+			display: none;
+		}
+		/* 未选中样式 */
+		.checkbox{
+			display: block;
+			width: 15px;
+			height: 15px;
+			border: 1px solid #2672ff;
+			border-radius: 6px;
+			margin: 0 6px;
+		}
+		/* 选中样式 */
+		input[type=checkbox]:checked + .checkbox{
+			background-color: #2672ff;
+		}
+	</style>
+</head>
+<body>
+	<label>
+		<input type="checkbox">
+		<span class="checkbox"></span>
+		<span>多选</span>
+	</label>
+</body>
+</html>
